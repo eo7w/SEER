@@ -1,0 +1,12 @@
+{
+  "name": "Script — AI Chat Workspace",
+  "short_name": "Script",
+  "description": "A zero-dependency AI chat workspace with analytics, themes, and 11 locales.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b0d12",
+  "theme_color": "#6d5cff",
+  "icons": [
+    { "src": "assets/icons/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

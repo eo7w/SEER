@@ -1,0 +1,10 @@
+/* Script — AI Chat Workspace */
+
+/* repo */
+  Repository: https://github.com/eo7w/SEER
+  License: MIT
+
+/* stack */
+  Languages: JavaScript (ES Modules), CSS, HTML, SVG, JSON, Markdown
+  Dependencies: none
+  Build step: none

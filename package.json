@@ -1,0 +1,25 @@
+{
+  "name": "script-ai",
+  "version": "1.0.0",
+  "description": "Script — a professional, zero-dependency AI chat dashboard built with vanilla ES Modules, CSS, HTML, SVG and JSON.",
+  "type": "module",
+  "private": false,
+  "license": "MIT",
+  "author": "eo7w",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eo7w/SEER.git"
+  },
+  "keywords": ["ai", "chat", "dashboard", "es-modules", "zero-dependencies", "no-build", "design-system"],
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "node scripts/dev-server.js",
+    "start": "node scripts/dev-server.js",
+    "test": "node --test tests/",
+    "lint": "node scripts/lint.js",
+    "check:locales": "node scripts/check-locales.js",
+    "verify": "npm run lint && npm run check:locales && npm test"
+  }
+}
