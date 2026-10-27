@@ -1,0 +1,26 @@
+{
+  "meta": { "name": "हिन्दी", "dir": "ltr" },
+  "app": { "name": "Script", "tagline": "सोचने, बनाने और लॉन्च करने के लिए आपका AI कार्यक्षेत्र।" },
+  "nav": { "chat": "चैट", "projects": "प्रोजेक्ट्स", "usage": "उपयोग", "settings": "सेटिंग्स" },
+  "chat": {
+    "newChat": "नई चैट",
+    "placeholder": "Script से कुछ भी पूछें — भेजने के लिए ⏎, नई पंक्ति के लिए ⇧⏎",
+    "greeting": "नमस्ते",
+    "emptyHint": "नीचे से एक सुझाव चुनें या बस लिखना शुरू करें।",
+    "regenerate": "फिर से बनाएँ",
+    "rename": "बातचीत का नाम बदलें"
+  },
+  "actions": { "send": "भेजें", "copy": "कॉपी", "stop": "रोकें", "search": "खोजें", "export": "निर्यात", "delete": "हटाएँ" },
+  "settings": {
+    "title": "सेटिंग्स",
+    "theme": "थीम",
+    "accent": "एक्सेंट रंग",
+    "language": "भाषा",
+    "fontScale": "फ़ॉन्ट आकार",
+    "model": "डिफ़ॉल्ट मॉडल",
+    "clearAll": "सभी बातचीत हटाएँ",
+    "shortcuts": "कीबोर्ड शॉर्टकट"
+  },
+  "right": { "projects": "प्रोजेक्ट्स", "tools": "AI टूल्स", "usage": "दैनिक उपयोग" },
+  "common": { "save": "सहेजें", "cancel": "रद्द करें" }
+}

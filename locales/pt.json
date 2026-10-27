@@ -1,0 +1,26 @@
+{
+  "meta": { "name": "Português", "dir": "ltr" },
+  "app": { "name": "Script", "tagline": "Seu espaço de IA para pensar, construir e lançar." },
+  "nav": { "chat": "Conversa", "projects": "Projetos", "usage": "Uso", "settings": "Configurações" },
+  "chat": {
+    "newChat": "Nova conversa",
+    "placeholder": "Pergunte qualquer coisa ao Script — ⏎ para enviar, ⇧⏎ para nova linha",
+    "greeting": "Olá",
+    "emptyHint": "Escolha uma sugestão abaixo ou comece a escrever.",
+    "regenerate": "Regenerar",
+    "rename": "Renomear conversa"
+  },
+  "actions": { "send": "Enviar", "copy": "Copiar", "stop": "Parar", "search": "Pesquisar", "export": "Exportar", "delete": "Excluir" },
+  "settings": {
+    "title": "Configurações",
+    "theme": "Tema",
+    "accent": "Cor de destaque",
+    "language": "Idioma",
+    "fontScale": "Tamanho do texto",
+    "model": "Modelo padrão",
+    "clearAll": "Limpar todas as conversas",
+    "shortcuts": "Atalhos de teclado"
+  },
+  "right": { "projects": "Projetos", "tools": "Ferramentas de IA", "usage": "Uso diário" },
+  "common": { "save": "Salvar", "cancel": "Cancelar" }
+}

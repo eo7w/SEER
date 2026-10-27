@@ -1,0 +1,26 @@
+{
+  "meta": { "name": "Deutsch", "dir": "ltr" },
+  "app": { "name": "Script", "tagline": "Dein KI-Arbeitsbereich zum Denken, Bauen und Veröffentlichen." },
+  "nav": { "chat": "Chat", "projects": "Projekte", "usage": "Nutzung", "settings": "Einstellungen" },
+  "chat": {
+    "newChat": "Neuer Chat",
+    "placeholder": "Frag Script alles — ⏎ zum Senden, ⇧⏎ für eine neue Zeile",
+    "greeting": "Hallo",
+    "emptyHint": "Wähle unten einen Vorschlag oder tippe einfach los.",
+    "regenerate": "Neu generieren",
+    "rename": "Unterhaltung umbenennen"
+  },
+  "actions": { "send": "Senden", "copy": "Kopieren", "stop": "Stopp", "search": "Suchen", "export": "Exportieren", "delete": "Löschen" },
+  "settings": {
+    "title": "Einstellungen",
+    "theme": "Design",
+    "accent": "Akzentfarbe",
+    "language": "Sprache",
+    "fontScale": "Schriftgröße",
+    "model": "Standardmodell",
+    "clearAll": "Alle Unterhaltungen löschen",
+    "shortcuts": "Tastenkürzel"
+  },
+  "right": { "projects": "Projekte", "tools": "KI-Tools", "usage": "Tägliche Nutzung" },
+  "common": { "save": "Speichern", "cancel": "Abbrechen" }
+}

@@ -1,0 +1,26 @@
+{
+  "meta": { "name": "Italiano", "dir": "ltr" },
+  "app": { "name": "Script", "tagline": "Il tuo spazio IA per pensare, costruire e lanciare." },
+  "nav": { "chat": "Chat", "projects": "Progetti", "usage": "Utilizzo", "settings": "Impostazioni" },
+  "chat": {
+    "newChat": "Nuova chat",
+    "placeholder": "Chiedi qualsiasi cosa a Script — ⏎ per inviare, ⇧⏎ per una nuova riga",
+    "greeting": "Ciao",
+    "emptyHint": "Scegli un suggerimento qui sotto o inizia a scrivere.",
+    "regenerate": "Rigenera",
+    "rename": "Rinomina conversazione"
+  },
+  "actions": { "send": "Invia", "copy": "Copia", "stop": "Ferma", "search": "Cerca", "export": "Esporta", "delete": "Elimina" },
+  "settings": {
+    "title": "Impostazioni",
+    "theme": "Tema",
+    "accent": "Colore di accento",
+    "language": "Lingua",
+    "fontScale": "Dimensione del testo",
+    "model": "Modello predefinito",
+    "clearAll": "Cancella tutte le conversazioni",
+    "shortcuts": "Scorciatoie da tastiera"
+  },
+  "right": { "projects": "Progetti", "tools": "Strumenti IA", "usage": "Utilizzo giornaliero" },
+  "common": { "save": "Salva", "cancel": "Annulla" }
+}

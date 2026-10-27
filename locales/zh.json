@@ -1,0 +1,26 @@
+{
+  "meta": { "name": "中文", "dir": "ltr" },
+  "app": { "name": "Script", "tagline": "用于思考、构建与发布的 AI 工作空间。" },
+  "nav": { "chat": "对话", "projects": "项目", "usage": "用量", "settings": "设置" },
+  "chat": {
+    "newChat": "新对话",
+    "placeholder": "向 Script 提问 — ⏎ 发送，⇧⏎ 换行",
+    "greeting": "你好",
+    "emptyHint": "从下方建议中选择一个，或直接开始输入。",
+    "regenerate": "重新生成",
+    "rename": "重命名对话"
+  },
+  "actions": { "send": "发送", "copy": "复制", "stop": "停止", "search": "搜索", "export": "导出", "delete": "删除" },
+  "settings": {
+    "title": "设置",
+    "theme": "主题",
+    "accent": "强调色",
+    "language": "语言",
+    "fontScale": "字号",
+    "model": "默认模型",
+    "clearAll": "清空所有对话",
+    "shortcuts": "键盘快捷键"
+  },
+  "right": { "projects": "项目", "tools": "AI 工具", "usage": "每日用量" },
+  "common": { "save": "保存", "cancel": "取消" }
+}

@@ -1,0 +1,26 @@
+{
+  "meta": { "name": "Türkçe", "dir": "ltr" },
+  "app": { "name": "Script", "tagline": "Düşünmek, inşa etmek ve yayınlamak için yapay zekâ çalışma alanın." },
+  "nav": { "chat": "Sohbet", "projects": "Projeler", "usage": "Kullanım", "settings": "Ayarlar" },
+  "chat": {
+    "newChat": "Yeni sohbet",
+    "placeholder": "Script'e her şeyi sor — göndermek için ⏎, yeni satır için ⇧⏎",
+    "greeting": "Merhaba",
+    "emptyHint": "Aşağıdan bir öneri seç ya da yazmaya başla.",
+    "regenerate": "Yeniden oluştur",
+    "rename": "Sohbeti yeniden adlandır"
+  },
+  "actions": { "send": "Gönder", "copy": "Kopyala", "stop": "Durdur", "search": "Ara", "export": "Dışa aktar", "delete": "Sil" },
+  "settings": {
+    "title": "Ayarlar",
+    "theme": "Tema",
+    "accent": "Vurgu rengi",
+    "language": "Dil",
+    "fontScale": "Yazı boyutu",
+    "model": "Varsayılan model",
+    "clearAll": "Tüm sohbetleri temizle",
+    "shortcuts": "Klavye kısayolları"
+  },
+  "right": { "projects": "Projeler", "tools": "Yapay zekâ araçları", "usage": "Günlük kullanım" },
+  "common": { "save": "Kaydet", "cancel": "İptal" }
+}

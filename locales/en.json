@@ -1,0 +1,26 @@
+{
+  "meta": { "name": "English", "dir": "ltr" },
+  "app": { "name": "Script", "tagline": "Your AI workspace for thinking, building, and shipping." },
+  "nav": { "chat": "Chat", "projects": "Projects", "usage": "Usage", "settings": "Settings" },
+  "chat": {
+    "newChat": "New chat",
+    "placeholder": "Ask Script anything — ⏎ to send, ⇧⏎ for a new line",
+    "greeting": "Hello",
+    "emptyHint": "Pick a suggestion below or just start typing.",
+    "regenerate": "Regenerate",
+    "rename": "Rename conversation"
+  },
+  "actions": { "send": "Send", "copy": "Copy", "stop": "Stop", "search": "Search", "export": "Export", "delete": "Delete" },
+  "settings": {
+    "title": "Settings",
+    "theme": "Theme",
+    "accent": "Accent color",
+    "language": "Language",
+    "fontScale": "Font size",
+    "model": "Default model",
+    "clearAll": "Clear all conversations",
+    "shortcuts": "Keyboard shortcuts"
+  },
+  "right": { "projects": "Projects", "tools": "AI tools", "usage": "Daily usage" },
+  "common": { "save": "Save", "cancel": "Cancel" }
+}
