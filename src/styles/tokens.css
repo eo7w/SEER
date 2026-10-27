@@ -1,0 +1,94 @@
+/* ---------- 00. TOKENS ---------- */
+:root {
+  /* palette — light */
+  --bg:            #F6F7F9;
+  --bg-soft:        #F1F3F6;
+  --surface:       #FFFFFF;
+  --surface-2:     #F3F5F9;
+  --surface-3:     #EAEEF4;
+  --well:          #F7F8FB;
+  --line:          #E6E9F0;
+  --line-2:        #DAE0EA;
+  --text:          #171B26;
+  --text-2:        #4E5462;
+  --text-3:        #8A90A2;
+  --brand:         #4F7CFF;
+  --brand-2:       #3E69E8;
+  --brand-3:       #2F53C4;
+  --brand-soft:    #EDF2FF;
+  --brand-soft-2:  #DCE7FF;
+  --brand-glow:    rgba(79,124,255,.32);
+  --brand-grad:    linear-gradient(135deg,#5E8BFF 0%,#3E69E8 100%);
+  --ok:            #16A34A;
+  --ok-soft:       #E8F7EE;
+  --warn:          #D97706;
+  --warn-soft:     #FCF2E3;
+  --danger:        #DC2626;
+  --danger-soft:   #FDECEC;
+  --violet:        #7C5CFF;
+  --violet-soft:   #F0EDFF;
+
+  /* radii */
+  --r-xs: 6px; --r-sm: 8px; --r-md: 12px; --r-lg: 16px; --r-xl: 20px; --r-2xl: 24px; --r-full: 999px;
+
+  /* layered soft shadows */
+  --sh-xs: 0 1px 2px rgba(23,27,38,.05);
+  --sh-sm: 0 1px 2px rgba(23,27,38,.05), 0 2px 8px rgba(23,27,38,.06);
+  --sh-md: 0 2px 4px rgba(23,27,38,.05), 0 8px 24px rgba(23,27,38,.09);
+  --sh-lg: 0 4px 8px rgba(23,27,38,.06), 0 20px 48px rgba(23,27,38,.14);
+  --sh-brand: 0 4px 14px rgba(79,124,255,.32);
+  --sh-focus: 0 0 0 3px var(--brand-glow);
+
+  /* geometry */
+  --sb-w: 264px;
+  --sb-w-rail: 76px;
+  --rp-w: 324px;
+  --topbar-h: 60px;
+  --composer-max: 780px;
+
+  /* type */
+  --font: "Inter", "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+  --mono: "SF Mono", "JetBrains Mono", ui-monospace, "Cascadia Code", Consolas, monospace;
+  --fs-xs: 11px; --fs-sm: 12px; --fs-md: 13px; --fs-base: 14px; --fs-md-plus: 15px; --fs-lg: 16px; --fs-xl: 18px; --fs-2xl: 22px; --fs-3xl: 28px; --fs-4xl: 34px;
+
+  /* motion */
+  --e-out: cubic-bezier(.22,.61,.36,1);
+  --e-spring: cubic-bezier(.34,1.3,.5,1);
+  --e-in-out: cubic-bezier(.65,0,.35,1);
+  --t-fast: .16s; --t-med: .28s; --t-slow: .44s;
+}
+
+[data-theme="dark"] {
+  --bg:            #0C0E14;
+  --bg-soft:       #090B10;
+  --surface:       #14171F;
+  --surface-2:     #1B1F29;
+  --surface-3:     #232838;
+  --well:          #10131B;
+  --line:          #212633;
+  --line-2:        #2C3344;
+  --text:          #EEF0F6;
+  --text-2:        #A7ADC0;
+  --text-3:        #6B7186;
+  --brand:         #5E8BFF;
+  --brand-2:       #6E97FF;
+  --brand-3:       #4F7CFF;
+  --brand-soft:    rgba(94,139,255,.13);
+  --brand-soft-2:  rgba(94,139,255,.22);
+  --brand-glow:    rgba(94,139,255,.4);
+  --brand-grad:    linear-gradient(135deg,#6E97FF 0%,#4F63E8 100%);
+  --ok:            #34C77B;
+  --ok-soft:       rgba(52,199,123,.12);
+  --warn:          #E8A33D;
+  --warn-soft:     rgba(232,163,61,.12);
+  --danger:        #F0616A;
+  --danger-soft:   rgba(240,97,106,.12);
+  --violet:        #9E86FF;
+  --violet-soft:   rgba(158,134,255,.13);
+  --sh-xs: 0 1px 2px rgba(0,0,0,.28);
+  --sh-sm: 0 1px 2px rgba(0,0,0,.3), 0 2px 10px rgba(0,0,0,.32);
+  --sh-md: 0 2px 6px rgba(0,0,0,.3), 0 10px 30px rgba(0,0,0,.4);
+  --sh-lg: 0 6px 12px rgba(0,0,0,.35), 0 24px 56px rgba(0,0,0,.5);
+  --sh-brand: 0 4px 16px rgba(79,124,255,.4);
+}
+
