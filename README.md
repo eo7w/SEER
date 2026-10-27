@@ -9,15 +9,15 @@ streaming responses, analytics dashboard, command palette, projects panel,
 settings, and a full design system — built as **zero-dependency native
 ES Modules** with **no build step**.
 
-> Open `index.html` in a browser and it runs. Clone it, serve it, ship it.
+> Clone it, serve it, ship it. `index.html` is the whole app.
 
 ---
 
 ## ✨ Features
 
-- 💬 **Multi-conversation chat** — create, rename, delete, search history; responses stream in with a live caret.
+- 💬 **Multi-conversation chat** — create, rename, delete, pin; responses stream in with a live caret.
 - 📊 **Analytics view** — stats grid and a hand-rolled SVG area chart of usage.
-- 🎨 **Design system** — dark/light themes, 6 accent palettes, continuous font scaling, full token layer.
+- 🎨 **Design system** — dark/light themes, 6 accent palettes, continuous font scaling, full token layer (17 CSS files).
 - 🌍 **11 locales** — EN, AR (RTL), FR, ES, DE, TR, PT, IT, RU, ZH, HI — key-parity enforced in CI.
 - ⌨️ **Command palette** (⌘K / Ctrl+K) and a full keyboard shortcut layer.
 - 🗂️ **Projects & AI tools panel**, template gallery, suggestions engine.
@@ -36,7 +36,7 @@ npm run dev     # zero-dep static server → http://localhost:8080
 No `npm install` — there are no dependencies. To run the checks:
 
 ```bash
-npm run verify          # lint + locale parity + tests
+npm run verify          # lint + locale parity + tests (what CI runs)
 npm test                # tests only
 npm run dev             # local server
 ```
@@ -58,9 +58,9 @@ recommended path for full fidelity.
 │   │                       # palette, toast
 │   ├── data/               # 9 modules: models, accents, suggestions,
 │   │                       # shortcuts, charts, settings, tools, seed…
-│   └── styles/              # 17 CSS files: tokens → utilities → regions
+│   └── styles/             # 17 CSS files: tokens → utilities → regions
 ├── locales/                # 11 JSON locale files (key-parity checked)
-├── assets/icons/           # 41 standalone SVG icons
+├── assets/icons/           # 60 standalone SVG icons
 ├── tests/                  # 8 suites (node:test)
 ├── scripts/                # zero-dep dev tooling: dev-server, lint, locales
 ├── docs/                   # 10 deep-dive documents

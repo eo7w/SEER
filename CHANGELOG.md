@@ -16,7 +16,7 @@ versioning follows [SemVer](https://semver.org/).
 - Command palette (⌘K) and full keyboard shortcut layer.
 - Projects & AI tools panel, template gallery, suggestions engine.
 - 11 locales with enforced key parity (incl. Arabic RTL).
-- 41 standalone SVG icons + inline icon registry.
+- 60 standalone SVG icons + inline icon registry.
 - 8 test suites on `node:test` — zero install.
 - Zero-dependency dev tooling: static server, linter, locale checker.
 - CI (lint + locales + tests on Node 20 & 22) and GitHub Pages workflow.
