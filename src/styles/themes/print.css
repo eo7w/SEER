@@ -1,0 +1,17 @@
+/* Print stylesheet — strips panels, shadows, and backgrounds so
+   conversation exports print cleanly on white. */
+
+@media print {
+  body { background: #fff !important; }
+  .sb, .rp, .composer-zone, .tb-actions, .tb-actions *,
+  .msg-actions, .jump, .toasts, .overlay { display: none !important; }
+  .main { padding: 0 !important; }
+  .msg, .bubble, .card {
+    box-shadow: none !important;
+    background: #fff !important;
+    border-color: #ccc !important;
+  }
+  .chat-scroll { height: auto !important; overflow: visible !important; }
+  * { color: #111 !important; text-shadow: none !important; }
+  a { text-decoration: underline; }
+}

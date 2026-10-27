@@ -1,0 +1,21 @@
+/* ---------- 14. ICON SIZING ---------- */
+svg { width: 18px; height: 18px; flex: none; stroke-width: 1.8; }
+.brand-mark svg { width: 19px; height: 19px; }
+.hero-orb svg { width: 30px; height: 30px; }
+.ibtn-xs svg { width: 15px; height: 15px; }
+.act-chip svg { width: 14px; height: 14px; }
+.tchip svg, .mode-chip svg, .model-pick svg { width: 14px; height: 14px; }
+.toolchip svg { width: 16px; height: 16px; }
+.menu-item svg { width: 15px; height: 15px; }
+.pc-meta svg, .rp-search svg, .sb-search svg { width: 14px; height: 14px; }
+.toast svg { width: 12px; height: 12px; }
+.pal-item .pi-ico svg { width: 15px; height: 15px; }
+kbd.k ~ svg { width: 14px; }
+.nav-item svg { width: 17px; height: 17px; }
+.send-btn svg { width: 16px; height: 16px; }
+.up-title svg { width: 14px; height: 14px; }
+.pc-ico svg { width: 16px; height: 16px; }
+.jump svg { width: 16px; height: 16px; }
+.scard-ico svg { width: 17px; height: 17px; }
+.sr-ico svg { width: 15px; height: 15px; }
+

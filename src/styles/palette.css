@@ -1,0 +1,35 @@
+/* ---------- 09. COMMAND PALETTE ---------- */
+.palette {
+  width: min(620px, 100%);
+  align-self: start;
+  margin-top: 12vh;
+  background: var(--surface);
+  border: 1px solid var(--line-2);
+  border-radius: var(--r-xl);
+  box-shadow: var(--sh-lg);
+  overflow: hidden;
+  animation: popIn var(--t-med) var(--e-spring) both;
+}
+.pal-in {
+  display: flex; align-items: center; gap: 12px;
+  padding: 16px 18px;
+  border-bottom: 1px solid var(--line);
+}
+.pal-in input { flex: 1; font-size: var(--fs-lg); background: transparent; }
+.pal-in input::placeholder { color: var(--text-3); }
+.pal-list { max-height: 380px; overflow-y: auto; padding: 8px; }
+.pal-item {
+  width: 100%;
+  display: flex; align-items: center; gap: 12px;
+  padding: 10px 12px;
+  border-radius: var(--r-md);
+  text-align: left;
+  color: var(--text-2);
+  transition: background var(--t-fast);
+}
+.pal-item.sel { background: var(--brand-soft); color: var(--brand); }
+.pal-item .pi-ico { width: 32px; height: 32px; flex: none; border-radius: 9px; background: var(--surface-2); display: grid; place-items: center; }
+.pal-item .pi-h { font-size: var(--fs-base); font-weight: 600; color: var(--text); }
+.pal-item .pi-p { font-size: var(--fs-sm); color: var(--text-3); }
+.pal-empty { padding: 34px; text-align: center; color: var(--text-3); font-size: var(--fs-base); }
+

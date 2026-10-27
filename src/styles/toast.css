@@ -1,0 +1,22 @@
+/* ---------- 12. TOASTS ---------- */
+#toasts {
+  position: fixed;
+  bottom: 20px; left: 50%; transform: translateX(-50%);
+  display: flex; flex-direction: column; align-items: center; gap: 8px;
+  z-index: 200;
+  pointer-events: none;
+}
+.toast {
+  display: flex; align-items: center; gap: 10px;
+  padding: 10px 16px;
+  background: var(--surface);
+  border: 1px solid var(--line-2);
+  border-radius: var(--r-full);
+  box-shadow: var(--sh-lg);
+  font-size: var(--fs-base); font-weight: 500;
+  animation: toastIn var(--t-med) var(--e-spring) both;
+  pointer-events: auto;
+}
+.toast .ti { width: 22px; height: 22px; border-radius: 50%; display: grid; place-items: center; color: #fff; background: var(--ok); animation: checkPop .35s var(--e-spring) both; }
+.toast.err .ti { background: var(--danger); }
+

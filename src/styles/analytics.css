@@ -1,0 +1,27 @@
+/* ---------- 10. ANALYTICS ---------- */
+.stats-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px; margin-bottom: 18px; }
+.stat-card {
+  padding: 16px;
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--r-lg);
+  box-shadow: var(--sh-xs);
+  animation: fadeUp .4s var(--e-out) both;
+}
+.stat-num { font-size: 26px; font-weight: 700; letter-spacing: -.02em; margin-top: 3px; }
+.stat-lbl { font-size: var(--fs-sm); color: var(--text-3); font-weight: 500; }
+.stat-trend { display: inline-flex; align-items: center; gap: 4px; font-size: 11px; font-weight: 700; margin-top: 8px; padding: 2px 8px; border-radius: var(--r-full); }
+.chart-card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: var(--r-lg);
+  padding: 18px;
+  box-shadow: var(--sh-xs);
+  margin-bottom: 14px;
+}
+.chart-h { font-size: var(--fs-base); font-weight: 700; margin-bottom: 2px; }
+.chart-s { font-size: var(--fs-sm); color: var(--text-3); margin-bottom: 14px; }
+.legend { display: flex; gap: 14px; margin-top: 10px; flex-wrap: wrap; }
+.legend .lg { display: inline-flex; align-items: center; gap: 6px; font-size: var(--fs-sm); color: var(--text-2); }
+.legend .lg i { width: 9px; height: 9px; border-radius: 3px; }
+

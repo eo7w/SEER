@@ -1,0 +1,24 @@
+/* ================================================================
+   SCRIPT · AI CHAT DASHBOARD — Professional Design System
+   Light-first, blueprint-inspired, 8pt grid, layered depth.
+   ================================================================ */
+
+/* The full system is assembled here in strict order:
+   tokens → reset → utilities → motion → regions → print. */
+
+@import url("tokens.css");
+@import url("reset.css");
+@import url("utilities.css");
+@import url("animations.css");
+@import url("shell.css");
+@import url("empty-state.css");
+@import url("composer.css");
+@import url("right-panel.css");
+@import url("modal.css");
+@import url("palette.css");
+@import url("analytics.css");
+@import url("markdown.css");
+@import url("toast.css");
+@import url("responsive.css");
+@import url("icons.css");
+@import url("themes/print.css") print;
